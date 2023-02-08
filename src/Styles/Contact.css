@@ -1,0 +1,318 @@
+.contact {
+    position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact {
+        top: 70px;
+    }
+}
+
+.contact-header {
+    background-image: linear-gradient(131deg,#ff6a88 0%,#ff99ac 100%);
+    padding: 80px 0 110px 0;
+    box-shadow: inset 0px -200px 0px 0px #ffffff;
+    position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-header {
+        padding: 30px;
+    }
+}
+
+.contact-x {
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+    position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-x {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+.contact-header-text {
+    padding: 2% 0;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    color: #fff;
+    
+}
+
+.contact-header-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-header-intro {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+.contact-header-intro h1 {
+    font-size: 60px;
+    line-height: 1.7em;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-header-intro h1 {
+        font-size: 2.2rem;
+        line-height: 1.6em;
+    }
+}
+
+.contact-header-intro .break {
+    width: 10%;
+    margin-bottom: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-header-intro .break {
+        width: 15%;
+    }
+}
+
+.contact-header-intro p {
+    text-align: center;
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-header-intro p {
+        font-size: 1rem;
+        line-height: 1.7rem;
+    }
+}
+
+.contact-header-contact {
+    padding: 60px 0 27px 0;
+    max-width: 1440px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-header-contact {
+        padding: 40px 0 20px 0;
+        max-width: 100%;
+    }
+}
+
+.contact-y {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 0 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-y {
+        gap: 2rem 0;
+    }
+}
+
+.contact-box {
+    font-size: 16px;
+    line-height: 1.9em;
+    background-color: #ffffff;
+    padding-top: 30px!important;
+    padding-right: 30px!important;
+    padding-bottom: 30px!important;
+    padding-left: 30px!important;
+    box-shadow: 0px 10px 100px 0px rgb(0 0 0 / 20%);
+    color: rgba(0,0,0,0.4)!important;
+    text-align: center;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-box {
+        font-size: 14px;
+    }
+}
+
+.contact-box h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ff9f3f!important;
+    letter-spacing: 3px;
+    line-height: 1.5em;
+    font-size: 20px;
+    font-family: 'Playfair Display';
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-box h3 {
+        font-size: 17px;
+    }
+}
+
+.contact-box p {
+    padding-bottom: 10px;
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+.contact-box a {
+    font-weight: 700;
+    color: rgba(0,0,0,0.4);
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-box a {
+        font-size: 1rem;
+    }
+}
+
+.contact-map {
+    padding: 2% 0;
+    width: 100%;
+    height: 60vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-map {
+        width: 99%;
+        margin: auto;
+        height: 50vh;
+    }
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.let-talk {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 6% 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .let-talk {
+        padding: 9% 20px;
+    }
+}
+
+.let-talk h3 {
+    font-size: 46px;
+    line-height: 1.5em;
+    color: #2b2b2b;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .let-talk h3 {
+        font-size: 2.2rem;
+    }
+}
+
+.let-talk .break {
+    width: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+    .let-talk .break {
+        width: 15%;
+    }
+}
+
+.let-talk p {
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgba(0,0,0,0.4);
+}
+
+@media only screen and (max-width: 600px) {
+    .let-talk p {
+        font-size: 1rem;
+    }
+}
+
+.contact-form {
+    padding: 2% 0 4%;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-form {
+        padding: 2% 20px;
+        width: 99%;
+        margin: 0 auto;
+    }
+}
+
+input, textarea {
+    border: 1px solid rgba(53,55,64,0.2);
+    font-weight: 500;
+    color: rgba(0,0,0,0.4);
+    /* background-color: #eee; */
+    width: 100%;
+    font-size: 14px;
+    padding: 16px;
+}
+
+input:focus,
+textarea:focus {
+    outline: 1px solid rgba(0,0,0,0.4);
+}
+
+.form .flex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.form > div {
+    margin-bottom: 2rem;
+}
+
+.form textarea {
+    height: 20vh;
+}
+
+.form-message {
+    margin-bottom: 20px; 
+}
+
+button.form-btn {
+    color: rgba(0,0,0,0.7)!important;
+    border-width: 10px!important;
+    border-color: #f7d584;
+    border-radius: 0px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 700!important;
+    text-transform: uppercase!important;
+    background-color: #f7d584!important;
+    box-shadow: 0px 12px 18px -6px rgb(247 213 132 / 70%);
+    padding: 1.3em 1em;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    button.form-btn {
+        margin-bottom: 30%;
+    }
+}

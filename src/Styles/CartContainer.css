@@ -1,0 +1,138 @@
+.cart-container {
+    padding: 25px 100px;
+    /* display: flex;
+    flex-direction: column; */
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+    position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    .cart-container {
+        padding: 60px 20px;
+        width: 100%;
+        max-width: 100%;
+        top: 0px;
+    }
+}
+
+.cart-items-display {
+    padding: 40px 40px;
+    box-shadow: 5px -5px 20px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .cart-items-display {
+        display: 30px 20px;
+    }
+}
+
+.cart-header {
+    text-align: center;
+    margin: 3.5rem 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .cart-header {
+        margin: 3rem 0;
+    }
+}
+
+.cart-header h2 {
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    line-height: 1.5em;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+    .cart-header h2 {
+        font-size: 1.6rem;
+    }
+}
+
+.empty-cart {
+    font-size: 1.4rem;
+    line-height: 1.4em;
+    margin-top: 3rem;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+    .empty-cart {
+        font-size: 1.2rem;
+    }
+}
+
+.cart-footer {
+    margin: 2rem 0;
+}
+
+.cart-total h4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    line-height: 1.7em;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .cart-total h4 {
+        font-size: 1.1rem;
+    }
+}
+
+.cart-total h4 span {
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .cart-total h4 span {
+        font-size: 1.1rem;
+    }
+}
+
+button.clear-btn {
+    padding: 16px 20px;
+    color: #fff;
+    background-color: #000;
+    border: 2px solid transparent;
+    box-shadow: 0px 10px 10px 0px rgba(49, 46, 46, 0.86);
+    border-radius: 5px;
+    width: 20%;
+    margin: 3rem auto;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    button.clear-btn {
+        width: 100%;
+    }
+}
+
+button.clear-btn:hover {
+    opacity: 0.8;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 600px){
+    .loading {
+        font-size: 1.8rem;
+    }
+}

@@ -1,0 +1,51 @@
+.shop {
+    position: relative;
+}
+
+.shop-header {
+    background-image: linear-gradient(131deg,#ff6a88 0%,#ff99ac 100%);
+    padding-block: 80px;
+    padding-right: 0px;
+    padding-left: 0px;
+    position: relative;
+}
+
+.shop-x {
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+    position: relative;
+}
+
+.shop-header-text {
+    padding: 2% 0;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.shop-header-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop-header-intro h1 {
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.6em;
+}
+
+.shop-header-intro .break {
+    width: 10%;
+}
+
+.shop-header-intro p {
+    width: 60%;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    font-weight: 500;
+    text-align: center;
+}
