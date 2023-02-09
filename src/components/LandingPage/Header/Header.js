@@ -53,7 +53,7 @@ const Header = () => {
                 <p>Everyone deserves to look their best, and that's why we are here to help you produce the outfit that suite your taste.</p>
                 <Button className='female-btn'
                     gap="15px">
-                    Check it out
+                    Coming Soon
                     <UilArrowLeft className="icon" />
                 </Button>
             </div>
@@ -66,7 +66,7 @@ const Header = () => {
                 <p>Everyone deserves to look their best, Get Styled with the Best Unisex Outfits - MadeBy'Dlight</p>
                 <Button className='female-btn'
                     gap="15px">
-                    Check it out
+                    Coming Soon
                     <UilArrowRight className="icon" />
                 </Button>
             </div>
