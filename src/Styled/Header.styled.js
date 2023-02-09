@@ -112,6 +112,7 @@ export const HeaderStyled = styled.header`
 
         @media only screen and (max-width: 600px) {
             max-width: 100%;
+            width: 100%;
             height: 100vh;
         }
 
@@ -137,6 +138,11 @@ export const HeaderStyled = styled.header`
                 100%{
                   transform: scale(1);
                 }
+            }
+
+            @media only screen and (max-width: 600px)  {
+                width: 100%;
+                height: 100%;
             }
         }
     }
