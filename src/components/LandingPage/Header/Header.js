@@ -84,10 +84,10 @@ const Header = () => {
                 </h2>
                 <p>Everyone deserves to look their best, and that's why we are here to help you produce the outfit that suite your taste.</p>
                 <ul className='social-item flex'>
-                    <li><a href='#' className='social-link'><UilInstagram className="social-icon"/></a></li>
-                    <li><a href='#' className='social-link'><UilTwitter className="social-icon"/></a></li>
-                    <li><a href='#' className='social-link'><UilFacebookF className="social-icon"/></a></li>
-                    <li><a href='#' className='social-link'><UilWhatsapp className="social-icon"/></a></li>
+                    <li><a href='https://google.com' className='social-link'><UilInstagram className="social-icon"/></a></li>
+                    <li><a href='https://google.com' className='social-link'><UilTwitter className="social-icon"/></a></li>
+                    <li><a href='https://google.com' className='social-link'><UilFacebookF className="social-icon"/></a></li>
+                    <li><a href='https://google.com' className='social-link'><UilWhatsapp className="social-icon"/></a></li>
                 </ul>
             </div>
         </HeaderStyled>

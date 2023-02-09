@@ -52,15 +52,15 @@ const Footer = () => {
         <div className='footer z'>
             <h3>FOLLOW US</h3>
             <ul>
-                <li><a href='#'><UilWhatsappAlt className="icons"/></a></li>
-                <li><a href='#'><UilTwitter /></a></li>
-                <li><a href='#'><UilInstagram /></a></li>
-                <li><a href='#'><UilFacebookF/></a></li>
+                <li><a href='tel:08063707473'><UilWhatsappAlt className="icons"/></a></li>
+                <li><a href='https://twitter.com'><UilTwitter /></a></li>
+                <li><a href='https://instagram.com'><UilInstagram /></a></li>
+                <li><a href='https://facebook.com'><UilFacebookF/></a></li>
             </ul>
         </div>
       </div>
       <div className='footer-dev'>
-        <h4 className='dev'>Designed by <a target="_blank" rel='noopener' href='https://github.com/onakoyakayode'>Onakoya Kayode</a></h4>
+        <h4 className='dev'>Designed by <a target="_blank" rel="noreferrer" href='https://github.com/onakoyakayode'>Onakoya Kayode</a></h4>
         <small className='copyright'>&copy; 2023</small>
       </div>
     </footer>

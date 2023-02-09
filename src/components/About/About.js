@@ -133,7 +133,7 @@ const About = () => {
                     <div className='et_b_row'>
                         <div className='et_b_column'>
                         <div className='et_b_img'>
-                            <a href='#'>
+                            <a href='https://google.com'>
                             <span className='et_b_wrap'>
                                 <img src="https://images.pexels.com/photos/1309366/pexels-photo-1309366.jpeg?auto=compress&cs=tinysrgb&w=800" alt='' loading='lazy'/>
                                 {/* <span className='et_overlay'><UilLocationArrow className="icon"/></span> */}
@@ -148,7 +148,7 @@ const About = () => {
                         </div>
                         <div className='et_b_column'>
                         <div className='et_b_img'>
-                            <a href='#'>
+                            <a href='https://google.com'>
                             <span className='et_b_wrap'>
                                 <img src="https://images.pexels.com/photos/14933925/pexels-photo-14933925.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt='' loading='lazy'/>
                                 {/* <span className='et_overlay'><UilLocationArrow className="icon"/></span> */}
@@ -163,7 +163,7 @@ const About = () => {
                         </div>
                         <div className='et_b_column'>
                         <div className='et_b_img'>
-                            <a href='#'>
+                            <a href='https://google.com'>
                             <span className='et_b_wrap'>
                                 <img src="https://images.pexels.com/photos/13722335/pexels-photo-13722335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt='' loading='lazy'/>
                                 {/* <span className='et_overlay'><UilLocationArrow className="icon"/></span> */}
@@ -178,7 +178,7 @@ const About = () => {
                         </div>
                         <div className='et_b_column'>
                         <div className='et_b_img'>
-                            <a href='#'>
+                            <a href='https://google.com'>
                             <span className='et_b_wrap'>
                                 <img src="https://images.pexels.com/photos/5947162/pexels-photo-5947162.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load" alt='' loading='lazy'/>
                                 {/* <span className='et_overlay'><UilLocationArrow className="icon"/></span> */}
