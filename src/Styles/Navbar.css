@@ -22,8 +22,8 @@ nav {
 @media only screen and (max-width: 600px) {
     nav {
         flex-direction: column;
-        padding: 10px 20px;
-        height: 70px;
+        padding: 0px 20px;
+        height: 60px;
         align-items: flex-start;
         justify-content: flex-start;
         width: 100%;
@@ -45,7 +45,7 @@ nav {
 
 @media only screen and (max-width: 600px) {
     .nav-logo {
-        width: 55px;
+        width: 45px;
         height: 100%;
         overflow: hidden;
     }
