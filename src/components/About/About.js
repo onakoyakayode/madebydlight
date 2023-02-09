@@ -2,7 +2,6 @@ import React from 'react'
 import { motion,} from 'framer-motion'
 import Navbar from "../Main/Navbar/Navbar"
 import Footer from "../Footer/Footer"
-import {Button} from '../../Styled/Button.styled'
 import "../../Styles/AboutUs.css"
 
 const About = () => {

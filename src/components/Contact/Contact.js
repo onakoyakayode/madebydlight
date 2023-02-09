@@ -47,7 +47,7 @@ const Contact = () => {
             </div>
             <div className='contact-map'>
                 <div className='map'>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1978.458103064233!2d3.8619224254294227!3d7.363289514768694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10398c4c5f909bf7%3A0x53814306adf9a455!2sOluyole%20200273%2C%20Ibadan%2C%20Oyo!5e0!3m2!1sen!2sng!4v1675265465749!5m2!1sen!2sng" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
+                    <iframe title='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1978.458103064233!2d3.8619224254294227!3d7.363289514768694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10398c4c5f909bf7%3A0x53814306adf9a455!2sOluyole%20200273%2C%20Ibadan%2C%20Oyo!5e0!3m2!1sen!2sng!4v1675265465749!5m2!1sen!2sng" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
                 </div>
             </div>
             <div className='contact-x'>

@@ -1,12 +1,12 @@
 import React from 'react'
 import { Button } from '../../Styled/Button.styled'
 import "../../Styles/ShopCart.css"
-import { useDispatch } from 'react-redux'
-import { addToCart } from '../../Features/Cart/CartSlice'
+// import { useDispatch } from 'react-redux'
+// import { addToCart } from '../../Features/Cart/CartSlice'
 
 const ShopCart = ({ id, img, title, price, item }) => {
 
-    const dispatch = useDispatch();
+    // const dispatch = useDispatch();
 
     // const handleAddToCart = (item) => {
     //     dispatch(addToCart(item))

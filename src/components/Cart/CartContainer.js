@@ -20,7 +20,7 @@ const CartContainer = () => {
 
     useEffect(() => {
         dispatch(getCartItems());
-    }, [])
+    }, [getCartItems])
 
     if(isLoading) {
         return (
