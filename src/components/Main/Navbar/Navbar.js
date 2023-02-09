@@ -20,7 +20,7 @@ const Navbar = () => {
   const { amount } = useSelector((store) => store.cart);
 
   const activePage = window.location.pathname;
-  const NavLinks = document.querySelectorAll('nav a').forEach(link => {
+  const NavLink = document.querySelectorAll('nav a').forEach(link => {
     if(link.href.includes(`${activePage}`)) {
       link.classList.add('active')
     }
