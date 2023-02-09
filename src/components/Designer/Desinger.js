@@ -19,10 +19,10 @@ const Desinger = () => {
                         <img src="https://images.pexels.com/photos/1126727/pexels-photo-1126727.jpeg?auto=compress&cs=tinysrgb&w=800" alt="designer" />
                     </div>
                     <div className='designer-header-title'>
-                        <h3 className='animate__animated animate__fadeInRight'>Doyin Adewale</h3>
+                        <h3 className='animate__animated animate__fadeInRight animate__delay-1s'>Doyin Adewale</h3>
                         <div className='break'></div>
-                        <p className='animate__animated animate__fadeInUp animate__delay-1s'>Fashion Designer</p>
-                        <div className='designer-body-text animate__animated animate__fadeInUp'>
+                        <p className='animate__animated animate__fadeInUp animate__delay-2s'>Fashion Designer</p>
+                        <div className='designer-body-text animate__animated animate__fadeInUp animate__delay-3s'>
                             <p>A creative professional who designs clothing and accessories for consumers. I use my expertise in fabrics, textiles and color to create unique and stylish pieces that reflect current trends and cultural influences. I have a strong understanding of body types, fashion history, and current styles, as well as an eye for detail and proportion.</p>
                         </div>
                         <ul className='designer-body-quality'>
