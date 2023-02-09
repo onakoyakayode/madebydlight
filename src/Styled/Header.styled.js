@@ -7,7 +7,7 @@ export const HeaderStyled = styled.header`
     display: flex;
     align-items: flex-start;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
     
           
@@ -15,7 +15,8 @@ export const HeaderStyled = styled.header`
         flex-direction: column;
         align-items: center;
         margin: 0;
-        height: 95vh;
+        height: 100vh;
+        width: 100%;
 
         .reverse {
             flex-direction: column-reverse;
@@ -26,7 +27,7 @@ export const HeaderStyled = styled.header`
         flex-direction: column;
         align-items: center;
         margin: 0;
-        height: 95vh;
+        height: 100vh;
         width: 100%;
 
         .reverse {
@@ -113,7 +114,7 @@ export const HeaderStyled = styled.header`
         @media only screen and (max-width: 600px) {
             max-width: 100%;
             width: 100%;
-            height: 100vh;
+            height: 50vh;
         }
 
         @media only screen and (min-width: 600px) and (max-width: 900px) {
@@ -142,7 +143,8 @@ export const HeaderStyled = styled.header`
 
             @media only screen and (max-width: 600px)  {
                 width: 100%;
-                height: 100%;
+                height: 50vh;
+                object-fit: cover;
             }
         }
     }
@@ -163,7 +165,7 @@ export const HeaderStyled = styled.header`
             max-width: 100%;
             align-items: flex-start;
             padding: 20px;
-            height: 95vh;
+            height: 50vh;
         }
 
         @media only screen and (min-width: 600px) and (max-width: 900px) {
@@ -190,11 +192,11 @@ export const HeaderStyled = styled.header`
             text-transform: capitalize;
 
             @media only screen and (max-width: 600px) {
-                font-size: var(--MediumFontSize);
+                font-size: 1.9rem;
             }
 
             @media only screen and (min-width: 900px) and (max-width: 1200px) {
-                font-size: 3rem;
+                font-size: 2.5rem;
             }
         }
 
@@ -207,6 +209,7 @@ export const HeaderStyled = styled.header`
             @media only screen and (max-width: 600px) {
                 line-height: 1.4;
                 margin: 2rem 0 3rem;
+                font-size: 1rem;
             }
 
             @media only screen and (min-width: 900px) and (max-width: 1200px) {

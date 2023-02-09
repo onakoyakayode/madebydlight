@@ -108,7 +108,8 @@
     .shop-cart {
         width: 100%;
         gap: 3rem 1rem;
-        justify-content: center;
+        justify-content: flex-start;
+        padding-inline: 10px;
         padding-bottom: 70px;
     }
 }

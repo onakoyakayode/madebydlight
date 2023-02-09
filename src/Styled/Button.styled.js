@@ -18,8 +18,9 @@ export const Button = styled.button`
     gap: ${({gap}) => gap};
 
     @media only screen and (max-width: 600px) {
-        padding: 12px 25px;
         border-radius: 5px;
+        font-size: 1rem;
+        padding: 10px 20px;
     }
 
     @media only screen and (min-width: 600px) and (max-width: 900px) {
