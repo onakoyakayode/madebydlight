@@ -112,7 +112,7 @@ export const HeaderStyled = styled.header`
 
         @media only screen and (max-width: 600px) {
             max-width: 100%;
-            height: 65vh;
+            height: 100vh;
         }
 
         @media only screen and (min-width: 600px) and (max-width: 900px) {
